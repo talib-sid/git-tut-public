@@ -11,8 +11,10 @@ myNum = random.randint(1, 100)
 checkNum(myNum)
 
 
-def Checkifnegative(num):
+def CheckIfNegative(num):
     if num < 0:
         print("Negative")
-    else:
-        print("Positive")
+    else if num == 0:
+        print("Zero")
+    else: 
+        print("Negative")
